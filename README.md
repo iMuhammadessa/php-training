@@ -1,2 +1,2 @@
-# php-training
+# PHP-training
 All about PHP!
