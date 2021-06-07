@@ -7,10 +7,24 @@
 - foreach - loop
 - do while - loop */
 
-$number = 1;
 
+// While loop is used
+$number = 1;
+echo "// While loop is used <br>";
 while ($number<=10) {
     echo $number++ ."<br>";
+}
+
+// If & else loop is used
+
+$country = "Pakistan";
+
+if($country="Pakistan") {
+    echo "<br> <br>// If & else is used <br>";
+    echo "<script>document.write('<br> Condition matched!')</script>";
+}
+else {
+    echo "error | 404";
 }
 
 ?>
